@@ -123,7 +123,7 @@ public class Bank {
         int choice=0;
         while(choice!=7)
         {
-            System.out.println("press 1 to know bank details\npress 2 to know your account balance \npress 3 to know customer details\npress 4 to transfer balance\npress 5 to withdraw\npress 6 to deposit \npress  7 to exit");
+            System.out.println("\n\npress 1 to know bank details\npress 2 to know your account balance \npress 3 to know customer details\npress 4 to transfer balance\npress 5 to withdraw\npress 6 to deposit \npress  7 to exit");
             Scanner s = new Scanner(System.in);
             choice=s.nextInt();
             switch(choice)
